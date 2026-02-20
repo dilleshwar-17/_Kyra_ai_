@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "kyra-ai-assistant",
+  "version": "1.0.0",
+  "description": "Next-gen desktop AI assistant",
+  "main": "dist/electron/electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:electron\"",
+    "dev:frontend": "cd frontend && npx vite",
+    "dev:electron": "wait-on http://localhost:5173 && npx tsc -p electron/tsconfig.json && npx electron .",
+    "build": "npx tsc -p electron/tsconfig.json && cd frontend && npm run build && cd .. && npx electron-builder",
+    "preview": "vite preview"
+  },
+  "author": "KYRA",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.0",
+    "mic": "^2.1.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0",
+    "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "@vladmandic/face-api": "^1.7.12",
+    "dotenv": "^16.4.1",
+    "framer-motion": "^11.0.3",
+    "vosk": "^0.3.39"
+  },
+  "build": {
+    "appId": "com.kyra.ai.assistant",
+    "productName": "KYRA",
+    "npmRebuild": false,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "dist/electron/**/*",
+      "dist/renderer/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "models",
+        "to": "models",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "outDir": "../dist/electron",
+        "rootDir": "../",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "./**/*.ts",
+        "../core/**/*.ts",
+        "../perception/**/*.ts",
+        "../voice/**/*.ts",
+        "../tools/**/*.ts",
+        "../memory/**/*.ts",
+        "../config/**/*.ts",
+        "../services/**/*.ts"
+    ],
+    "exclude": [
+        "../node_modules",
+        "../frontend"
+    ]
+}

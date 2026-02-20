@@ -1,0 +1,154 @@
+  ΓÇó electron-builder  version=24.13.3 os=10.0.26200
+  ΓÇó loaded configuration  file=package.json ("build" field)
+  ΓÇó rebuilding native dependencies  dependencies=ffi-napi@4.0.3, ref-napi@3.0.3 platform=win32 arch=x64
+  Γ¿» cannot execute  cause=exit status 1
+                    errorOut=npm error code 1
+    npm error path C:\Users\srira\OneDrive\Desktop\MINI_Project_folders\KYRA_JARVIS\node_modules\ffi-napi
+    npm error command failed
+    npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node-gyp-build
+    npm error gyp info it worked if it ends with ok
+    npm error gyp info using node-gyp@11.0.0
+    npm error gyp info using node@22.17.1 | win32 | x64
+    npm error gyp ERR! find Python 
+    npm error gyp ERR! find Python Python is not set from command line or npm configuration
+    npm error gyp ERR! find Python Python is not set from environment variable PYTHON
+    npm error gyp ERR! find Python checking if the py launcher can be used to find Python 3
+    npm error gyp ERR! find Python - executable path is ""
+    npm error gyp ERR! find Python - "" could not be run
+    npm error gyp ERR! find Python checking if "python3" can be used
+    npm error gyp ERR! find Python - executable path is ""
+    npm error gyp ERR! find Python - "" could not be run
+    npm error gyp ERR! find Python checking if "python" can be used
+    npm error gyp ERR! find Python - executable path is ""
+    npm error gyp ERR! find Python - "" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python311\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python311\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python311\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python311\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python311-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python311-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python311-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python311-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python311-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files (x86)\Python311-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python310\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python310\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python310\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python310\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python310-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python310-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python310-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python310-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python310-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files (x86)\Python310-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python39\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python39\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python39\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python39\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python39-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python39-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python39-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python39-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python39-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files (x86)\Python39-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python38\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python38\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python38\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python38\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Users\srira\AppData\Local\Programs\Python\Python38-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Users\srira\AppData\Local\Programs\Python\Python38-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files\Python38-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files\Python38-32\python.exe" could not be run
+    npm error gyp ERR! find Python checking if Python is C:\Program Files (x86)\Python38-32\python.exe
+    npm error gyp ERR! find Python - version is ""
+    npm error gyp ERR! find Python - version is  - should be >=3.6.0
+    npm error gyp ERR! find Python - THIS VERSION OF PYTHON IS NOT SUPPORTED
+    npm error gyp ERR! find Python - "C:\Program Files (x86)\Python38-32\python.exe" could not be run
+    npm error gyp ERR! find Python 
+    npm error gyp ERR! find Python **********************************************************
+    npm error gyp ERR! find Python You need to install the latest version of Python.
+    npm error gyp ERR! find Python Node-gyp should be able to find and use Python. If not,
+    npm error gyp ERR! find Python you can try one of the following options:
+    npm error gyp ERR! find Python - Use the switch --python="C:\Path\To\python.exe"
+    npm error gyp ERR! find Python (accepted by both node-gyp and npm)
+    npm error gyp ERR! find Python - Set the environment variable PYTHON
+    npm error gyp ERR! find Python - Set the npm configuration variable python:
+    npm error gyp ERR! find Python npm config set python "C:\Path\To\python.exe"
+    npm error gyp ERR! find Python For more information consult the documentation at:
+    npm error gyp ERR! find Python https://github.com/nodejs/node-gyp#installation
+    npm error gyp ERR! find Python **********************************************************
+    npm error gyp ERR! find Python 
+    npm error gyp ERR! configure error 
+    npm error gyp ERR! stack Error: Could not find any Python installation to use
+    npm error gyp ERR! stack at PythonFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-python.js:306:11)
+    npm error gyp ERR! stack at PythonFinder.findPython (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-python.js:164:17)
+    npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    npm error gyp ERR! stack at async configure (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:27:18)
+    npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+    npm error gyp ERR! System Windows_NT 10.0.26200
+    npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+    npm error gyp ERR! cwd C:\Users\srira\OneDrive\Desktop\MINI_Project_folders\KYRA_JARVIS\node_modules\ffi-napi
+    npm error gyp ERR! node -v v22.17.1
+    npm error gyp ERR! node-gyp -v v11.0.0
+    npm error gyp ERR! not ok
+    npm error A complete log of this run can be found in: C:\Users\srira\AppData\Local\npm-cache\_logs\2026-02-20T07_57_03_414Z-debug-0.log
+    
+                    command='C:\Program Files\nodejs\node.exe' 'C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js' rebuild ffi-napi@4.0.3 ref-napi@3.0.3
+                    workingDir=

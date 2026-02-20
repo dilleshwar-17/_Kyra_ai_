@@ -1,0 +1,598 @@
+🧪 Testing KYRA AI Assistant Integration...
+
+1. Testing module imports...
+   ✅ AI Engine loaded successfully
+   ✅ Voice Controller loaded successfully
+RobotJS not available, using simulation mode for desktop automation
+node-pty not available, using simulation mode for terminal operations
+   ✅ Desktop Automation loaded successfully
+OpenCV not available, using simulation mode for facial expression detection
+   ✅ Avatar Manager loaded successfully
+
+2. Testing component initialization...
+   ✅ AI Engine initialized
+   ✅ Desktop Automation initialized
+   ✅ Voice Controller initialized
+Error initializing Facial Expression Detector: Error: OpenCV not available
+    at FacialExpressionDetector.init (c:\Users\srira\OneDrive\Desktop\MINI_Project_folders\KYRA_JARVIS\src\main\avatar-manager.js:358:15)
+    at AvatarManager.init (c:\Users\srira\OneDrive\Desktop\MINI_Project_folders\KYRA_JARVIS\src\main\avatar-manager.js:188:43)
+    at new AvatarManager (c:\Users\srira\OneDrive\Desktop\MINI_Project_folders\KYRA_JARVIS\src\main\avatar-manager.js:182:10)
+    at Object.<anonymous> (c:\Users\srira\OneDrive\Desktop\MINI_Project_folders\KYRA_JARVIS\test-kyra.js:45:27)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+   ✅ Avatar Manager initialized
+
+3. Testing basic functionality...
+   ✅ Message processing test: FAIL
+   ✅ Command parsing test: PASS
+
+4. Testing file structure...
+   ✅ src/main/main.js
+   ✅ src/main/ai-engine.js
+   ✅ src/main/voice-controller.js
+   ✅ src/main/desktop-automation.js
+   ✅ src/main/avatar-manager.js
+   ✅ src/renderer/index.html
+   ✅ src/renderer/index.js
+   ✅ src/renderer/styles.css
+   ✅ package.json
+
+==================================================
+🎉 KYRA AI Assistant is ready for testing!
+
+To start the application:
+  npm start
+
+Global shortcuts:
+  Ctrl+Shift+K - Toggle voice recognition
+  Ctrl+Shift+J - Show/hide KYRA
+
+==================================================
+Test completed! 🚀
+Intent Classifier initialized
+Started facial expression detection
+Avatar emotion changed: neutral → surprised
+Avatar Manager initialized with emotion system
+Intent Classifier initialized
+Response Generator initialized
+Response Generator initialized
+Message analysis: greeting (0.5)
+No existing conversation history found
+No existing conversation history found
+No existing user preferences found
+AI Engine initialized successfully
+No existing user preferences found
+AI Engine initialized successfully
+Windows Script Host available
+Desktop Automation initialized
+Windows Speech Platform not found, using simulation
+Voice controller running in simulation mode
+Windows speech recognition configured
+Voice Controller initialized
+Windows Script Host available
+Desktop Automation initialized
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
+Avatar emotion changed: confused → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → happy
+Avatar emotion changed: happy → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → happy
+Avatar emotion changed: happy → neutral
+Avatar emotion changed: neutral → surprised
+Avatar emotion changed: surprised → neutral
+Avatar emotion changed: neutral → confused
+Avatar emotion changed: confused → happy
+Avatar emotion changed: happy → confused
