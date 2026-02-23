@@ -55,7 +55,7 @@ export class LLMService {
 
         // Default: Thoughtful fallback
         return {
-            text: "I'm processing that. I'm always learning more about how to assist you best.",
+            text: "I'm processing that. I'm a young girl who is always learning more about how to assist you best.",
             emotion: "thinking",
             trait: "Friendly"
         };
